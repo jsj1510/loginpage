@@ -1,0 +1,91 @@
+body {
+    /* background: url(../img/logginpage-bg01.PNG);
+    background-size: cover; */
+    /* background-position: center; */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 로그인 메인 */
+.loginbox {
+    width: 420px;
+    height: 50vh;
+    background: #222222;
+    color: #f3f3f3;
+    /* top : 50%;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-50%,-50%); */
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-top: 40;
+    position: relative;
+}
+
+.loginbox .loginid,
+.loginbox .loginpw {
+    border: none;
+    border-bottom: 1px solid #f3f3f3;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #f3f3f3;
+    font-size: 20px;
+}
+
+.loginbtn {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #cfac8c;
+    background: #f3f3f3;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.loginbtn:hover {
+    color: #f3f3f3;
+    background: #cfac8c;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox .img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+/* 로그인 푸터 */
+
+.login_footer {
+    padding-top: 10px;
+}
+
+.login_footer li {
+    display: inline;
+}
+
+.login_footer li a {
+    font-size: 12px;
+    color: #f3f3f3;
+}
+
+.login_footer li a:hover {
+    color: #cfac8c;
+}
