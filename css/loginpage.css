@@ -2,6 +2,9 @@ body {
     background: url(../img/logginpage-bg01.PNG);
     background-size: cover;
     font-family: sans-serif;
+}
+
+#wrap {
     display: flex;
     justify-content: center;
     align-items: center;
