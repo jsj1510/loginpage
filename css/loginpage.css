@@ -30,7 +30,7 @@ body {
 .loginbox h1 {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .loginbox .loginid,
@@ -56,8 +56,8 @@ body {
 }
 
 .loginbtn:hover {
-    border: 1px solid #f3f3f3;
-    color: #f3f3f3;
+    border: 1px solid #222222;
+    color: #222222;
     background: #cfac8c;
 }
 
@@ -65,6 +65,7 @@ body {
     margin: 10px 0 0 0;
     padding: 0;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .loginbox input {
@@ -99,5 +100,5 @@ body {
 }
 
 .login_footer li a:hover {
-    color: #cfac8c;
+    color: #0093bd;
 }
